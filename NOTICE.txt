@@ -23,3 +23,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+MangaDex：本应用使用 MangaDex 官方公开 API。
+https://api.mangadex.org/docs/
+https://mangadex.org/
+章节名称保留语言和汉化组信息，作品与翻译归相应创作者所有。
+
+E-Hentai 公开站：使用官方元数据 API 与公开网页。
+https://ehwiki.org/wiki/API
+https://e-hentai.org/
+以上服务致谢不表示其授权或认可本应用。
