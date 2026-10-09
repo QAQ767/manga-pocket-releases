@@ -32,3 +32,8 @@ E-Hentai 公开站：使用官方元数据 API 与公开网页。
 https://ehwiki.org/wiki/API
 https://e-hentai.org/
 以上服务致谢不表示其授权或认可本应用。
+
+拷贝漫画：使用匿名可访问的漫画接口，作品归相应创作者所有。
+https://www.mangacopy.com/
+协议参考 fumiama/copymanga 的公开实现与配置；适配器为本项目独立实现，未复制其客户端代码。
+https://github.com/fumiama/copymanga （参考项目采用 GPL-3.0）
