@@ -1,12 +1,12 @@
 # 漫匣 · 安卓与 Windows
 
-漫画搜索、下载、长条 PDF 导出与离线阅读工具。安卓与 Windows 可独立运行，不需要 AI 或自建服务器。当前版本 1.0.2。
+漫画搜索、下载、长条 PDF 导出与离线阅读工具。安卓与 Windows 可独立运行，不需要 AI 或自建服务器。当前版本 1.0.3。
 
 ## 安装
 
 前往 [最新版本](https://github.com/QAQ767/manga-pocket-releases/releases/latest)，下载 `manga-pocket-版本号.apk` 并打开安装。已有旧版时直接覆盖安装，保留书架与阅读记录；不要先卸载。
 
-Windows x64：下载 `manga-pocket-1.0.2-windows-x64.zip`，完整解压后双击 `MangaPocket/MangaPocket.exe`；内置运行环境，无需另装 Java。书架在 `%LOCALAPPDATA%/MangaPocket`，升级时退出并运行新程序目录，数据保留。
+Windows x64：下载 `manga-pocket-1.0.3-windows-x64.zip`，完整解压后双击 `MangaPocket/MangaPocket.exe`；内置运行环境，无需另装 Java。书架在 `%LOCALAPPDATA%/MangaPocket`，升级时退出并运行新程序目录，数据保留。
 
 ## 应用内更新
 
@@ -34,7 +34,7 @@ Windows x64：下载 `manga-pocket-1.0.2-windows-x64.zip`，完整解压后双�
 - 本地 PDF／图片 ZIP 导入：书架「更多 → 导入漫画」，PDF 按文件分章，ZIP 按图片文件夹分章、按数字页码排序。详情「追加导入」补充同一本，原文件保留。
 - 已下载的应用更新仍可重新检查，安装地址与文件名带版本标识。
 
-当前版本 [1.0.2](https://github.com/QAQ767/manga-pocket-releases/releases/tag/v1.0.2)。E-Hentai 更新以完整画廊版本作为新章节追加，可能包含旧页面；没有提供可靠更新时间时明确显示缺失。仅使用公开站，不提供 ExHentai 登录。拷贝漫画保留源站机翻标记；本地导入支持未加密 PDF 和包含 JPG／PNG／WEBP 的 ZIP，不支持 RAR。普通导入入口也能单独识别漫画备份 ZIP，确认后按备份格式恢复，兼容改名文件。
+当前版本 [1.0.3](https://github.com/QAQ767/manga-pocket-releases/releases/tag/v1.0.3)。E-Hentai 更新以完整画廊版本作为新章节追加，可能包含旧页面；没有提供可靠更新时间时明确显示缺失。仅使用公开站，不提供 ExHentai 登录。拷贝漫画保留源站机翻标记；本地导入支持未加密 PDF 和包含 JPG／PNG／WEBP 的 ZIP，不支持 RAR。普通导入入口也能单独识别漫画备份 ZIP，确认后按备份格式恢复，兼容改名文件。
 
 本仓库用于公开发布正式安装包、更新说明和校验信息。源码在所有者的私有仓库维护，签名密钥、密码和个人漫画数据不上传。
 
@@ -42,4 +42,6 @@ Windows x64：下载 `manga-pocket-1.0.2-windows-x64.zip`，完整解压后双�
 
 Windows 提供搜索、逐章下载、暂停继续、分类隐藏、多选、阅读位置、缩放夜间、自动阅读、本地导入追加、整本 PDF 导出、自定义源、备份和更新下载。扫码直传保持两端页面打开；配对码 30 分钟有效，传输加密并校验文件。每章完成即可阅读；断线后重新发起跳过已完成章节，未完成的 PDF 从头重传。
 
-[1.0.2 更新说明](更新说明-1.0.2.md)
+[1.0.3 更新说明](更新说明-1.0.3.md)
+
+Windows 阅读器按屏幕实际像素高清分块渲染，关闭图片降采样；125%／150%／200% 缩放下保留细线和小字。原 PDF 不修改，已传入漫画无需重传。
