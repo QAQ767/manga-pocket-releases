@@ -38,6 +38,10 @@ https://www.mangacopy.com/
 协议参考 fumiama/copymanga 的公开实现与配置；适配器为本项目独立实现，未复制其客户端代码。
 https://github.com/fumiama/copymanga （参考项目采用 GPL-3.0）
 
+YY漫画：本应用适配其公开网页与阅读接口，作品归相应创作者所有。
+https://www.yymanhua.com/
+此处为漫画来源致谢，不表示该网站开源，也不表示其授权或认可本应用。
+
 Windows 界面：OpenJFX 21.0.12，GPL-2.0 with Classpath Exception。
 https://github.com/openjdk/jfx21u
 PDF 渲染：Apache PDFBox / FontBox / PDFBox IO 3.0.8，Apache-2.0。
@@ -51,3 +55,51 @@ https://github.com/stleary/JSON-java
 Windows 自带运行环境：Eclipse Temurin JRE 21.0.12.1+1，其许可见 runtime/legal。
 https://github.com/adoptium/temurin21-binaries
 依赖许可原文在 Windows 程序目录 licenses/；Java 运行环境许可保留在 runtime/legal/。
+
+
+本地漫画压缩包读取（漫匣 1.0.8）：
+Apache Commons Compress 1.28.0、Commons IO 2.20.0、Commons Lang 3.18.0、Commons Codec 1.19.0：Apache License 2.0。
+Zip4j 2.11.5：Apache License 2.0。XZ for Java 1.10：0BSD。SLF4J API 2.0.17：MIT。Junrar 8.1.1：unRAR 许可（仅用于解压，不用于开发 RAR 压缩算法）。
+完整许可及上游 NOTICE：安卓 APK assets/archive-licenses/；Windows 程序 licenses/；源码中同目录保留。版本和 SHA-256 固定于 archive-dependencies.json。
+
+--- Junrar / unRAR license ---
+ ******    *****   ******   UnRAR - free utility for RAR archives
+ **   **  **   **  **   **  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ******   *******  ******    License for use and distribution of
+ **   **  **   **  **   **   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ **   **  **   **  **   **         FREE portable version
+                                   ~~~~~~~~~~~~~~~~~~~~~
+
+      The source code of UnRAR utility is freeware. This means:
+
+   1. All copyrights to RAR and the utility UnRAR are exclusively
+      owned by the author - Alexander Roshal.
+
+   2. The UnRAR sources may be used in any software to handle RAR
+      archives without limitations free of charge, but cannot be used
+      to re-create the RAR compression algorithm, which is proprietary.
+      Distribution of modified UnRAR sources in separate form or as a
+      part of other software is permitted, provided that it is clearly
+      stated in the documentation and source comments that the code may
+      not be used to develop a RAR (WinRAR) compatible archiver.
+
+   3. The UnRAR utility may be freely distributed. It is allowed
+      to distribute UnRAR inside of other software packages.
+
+   4. THE RAR ARCHIVER AND THE UnRAR UTILITY ARE DISTRIBUTED "AS IS".
+      NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED.  YOU USE AT
+      YOUR OWN RISK. THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS,
+      DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING
+      OR MISUSING THIS SOFTWARE.
+
+   5. Installing and using the UnRAR utility signifies acceptance of
+      these terms and conditions of the license.
+
+   6. If you don't agree with terms of the license you must remove
+      UnRAR files from your storage devices and cease to use the
+      utility.
+
+      Thank you for your interest in RAR and UnRAR.
+
+
+                                            Alexander L. Roshal

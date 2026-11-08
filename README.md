@@ -1,12 +1,12 @@
 # 漫匣 · 安卓与 Windows
 
-漫画搜索、下载、长条 PDF 导出与离线阅读工具。安卓与 Windows 可独立运行，不需要 AI 或自建服务器。当前版本 1.2.2。
+漫画搜索、下载、长条 PDF 导出与离线阅读工具。安卓与 Windows 可独立运行，不需要 AI 或自建服务器。当前版本 1.2.3。
 
 ## 安装
 
 前往 [最新版本](https://github.com/QAQ767/manga-pocket-releases/releases/latest)，下载 `manga-pocket-版本号.apk` 并打开安装。已有旧版时直接覆盖安装，保留书架与阅读记录；不要先卸载。
 
-Windows x64：下载 `manga-pocket-1.2.2-windows-x64.zip`，完整解压后双击 `MangaPocket/MangaPocket.exe`；内置运行环境，无需另装 Java。书架在 `%LOCALAPPDATA%/MangaPocket`，升级时退出程序，完整解压并覆盖现有程序目录，数据保留。
+Windows x64：下载 `manga-pocket-1.2.3-windows-x64.zip`，完整解压后双击 `MangaPocket/MangaPocket.exe`；内置运行环境，无需另装 Java。书架在 `%LOCALAPPDATA%/MangaPocket`，升级时退出程序，完整解压并覆盖现有程序目录，数据保留。
 
 ## 应用内更新
 
@@ -85,3 +85,5 @@ Windows 阅读器按 Enter（回车）启动／停止自动阅读；两端每屏
 1.1.0 修复 1200 万像素上限导致的双页扫描导入失败，3200 万像素以内的图片保持原尺寸；新增漫画重命名和解压密码记忆。
 
 1.1.0 功能补充：安卓章节面板「更多 → 重命名漫画」、Windows 书架「重命名」可修改显示名（1–100 字），章节、PDF、阅读进度和备份身份不变。成功解压后记住密码，最多 20 条、重启自动尝试，设置中可清除；密码存于本机私有偏好，未加密。普通图片超过 3200 万像素时等比缩小，安卓带切片参数且超限的长图仍会拒绝。
+
+1.2.3：修复安卓书架多选和刷新时封面闪烁，复用已加载封面；双端补齐 YY漫画来源致谢。
