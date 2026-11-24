@@ -42,6 +42,10 @@ YY漫画：本应用适配其公开网页与阅读接口，作品归相应创作
 https://www.yymanhua.com/
 此处为漫画来源致谢，不表示该网站开源，也不表示其授权或认可本应用。
 
+漫画人：本应用适配其公开网页与阅读图片，作品归相应创作者所有。
+https://www.manhuaren.com/
+此处为漫画来源致谢，不表示该网站开源，也不表示其授权或认可本应用。
+
 Windows 界面：OpenJFX 21.0.12，GPL-2.0 with Classpath Exception。
 https://github.com/openjdk/jfx21u
 PDF 渲染：Apache PDFBox / FontBox / PDFBox IO 3.0.8，Apache-2.0。
@@ -86,7 +90,7 @@ Zip4j 2.11.5：Apache License 2.0。XZ for Java 1.10：0BSD。SLF4J API 2.0.17�
    3. The UnRAR utility may be freely distributed. It is allowed
       to distribute UnRAR inside of other software packages.
 
-   4. THE RAR ARCHIVER AND THE UnRAR UTILITY ARE DISTRIBUTED "AS IS".
+   4. THE RAR ARCHIVER AND THE UNRAR UTILITY ARE DISTRIBUTED "AS IS".
       NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED.  YOU USE AT
       YOUR OWN RISK. THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS,
       DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING

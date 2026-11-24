@@ -4,23 +4,24 @@
 
 ## 下载
 
-当前正式版：**1.2.3**。本地开发版为 **1.2.4**（新增漫画人、修复 YY 空章节标题），尚未发布；以下链接指向已发布安装包。
+当前正式版：**1.3.0**。
 
-| 平台               | 下载直达                                                     | 使用方式                                        |
-| ------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
-| Android 8.0 及以上 | [下载 APK](https://github.com/QAQ767/manga-pocket-releases/releases/download/v1.2.3/manga-pocket-1.2.3.apk) | 打开安装；已有旧版可直接覆盖，保留书架          |
-| Windows x64        | [下载便携版 ZIP](https://github.com/QAQ767/manga-pocket-releases/releases/download/v1.2.3/manga-pocket-1.2.3-windows-x64.zip) | 完整解压后运行 `MangaPocket.exe`，无需另装 Java |
+| 平台 | 下载直达 | 使用方式 |
+| --- | --- | --- |
+| Android 8.0 及以上 | [下载 APK](https://github.com/QAQ767/manga-pocket-releases/releases/download/v1.3.0/manga-pocket-1.3.0.apk) | 打开安装；已有旧版可直接覆盖，保留书架 |
+| Windows x64 | [下载便携版 ZIP](https://github.com/QAQ767/manga-pocket-releases/releases/download/v1.3.0/manga-pocket-1.3.0-windows-x64.zip) | 完整解压后运行 `MangaPocket.exe`，无需另装 Java |
 
-[最新发布页](https://github.com/QAQ767/manga-pocket-releases/releases/latest) · [历史版本与更新说明](https://github.com/QAQ767/manga-pocket-releases/releases) · [SHA-256 校验文件](https://github.com/QAQ767/manga-pocket-releases/releases/download/v1.2.3/SHA256SUMS.txt)
+[最新发布页](https://github.com/QAQ767/manga-pocket-releases/releases/latest) · [历史版本与更新说明](https://github.com/QAQ767/manga-pocket-releases/releases) · [SHA-256 校验文件](https://github.com/QAQ767/manga-pocket-releases/releases/download/v1.3.0/SHA256SUMS.txt)
 
 升级前无需卸载；Windows 请先退出程序，再替换程序文件。安装包下载需要能够访问 GitHub。
 
 ## 能做什么
 
-- **搜索与下载**：按漫画名称或作者查找作品，选择章节下载，检查已收藏漫画的新章节。
-- **离线书架**：分类、隐藏、搜索、重命名，按最近阅读排序并保存阅读进度。
-- **连续阅读**：长条滚动、跨章衔接、缩放、夜间调暗和可调速度的自动阅读。
-- **本地导入与导出**：导入 PDF、图片 ZIP／CBZ、7z／CB7、RAR／CBR，将漫画合并导出为 PDF。
+- **搜索与下载**：按漫画名称、作者或作品链接查找作品，选择章节下载，检查已收藏漫画的新章节。
+- **离线书架**：支持拖拽自由排序与拖拽归类、分类管理、隐藏、搜索、重命名，支持最近阅读或自定义排序并保存阅读进度。
+- **清新多主题界面**：内置薄荷汽水、薄荷夜色、晴空花信、白百合馆、星海夜想五套日夜外观主题，一键即时切换。
+- **连续阅读**：长条滚动、跨章衔接、缩放、夜间调暗、悬浮胶囊控制栏和可调速度的自动阅读。
+- **本地导入与导出**：导入 PDF、图片 ZIP／CBZ、7z／CB7、RAR／CBR（支持记住解压密码），将漫画合并导出为 PDF。
 - **跨设备迁移**：Android 与 Windows 可在同一局域网扫码直传，也可通过文件备份迁移漫画与阅读记录。
 
 ## 怎么实现
@@ -35,6 +36,12 @@ Android 使用原生 Java 界面，Windows 使用 JavaFX。两端共用漫画源
 
 ## 漫画来源与致谢
 
-已发布版内置 YY漫画、拷贝漫画、MangaDex、E-Hentai、JM 和离线示例，并支持自定义 JM 兼容接口及通用 JSON 接口。各源的内容、中文章节和更新速度取决于源站；普通网站首页不能直接当作通用漫画接口使用。
+已发布版内置 YY漫画、拷贝漫画、漫画人、MangaDex、E-Hentai、JM 和离线示例，并支持自定义 JM 兼容接口及通用 JSON 接口。各源的内容、中文章节和更新速度取决于源站；普通网站首页不能直接当作通用漫画接口使用。
 
 漫画及翻译归相应创作者所有。本项目不实现付费解锁、登录限制或验证码绕过。开源组件许可、参考项目和来源致谢见 [NOTICE.txt](NOTICE.txt)。
+
+## 免责声明
+
+本项目仅作为个人技术研究与学习交流使用，不提供任何漫画内容的存储、托管或商业分发服务，亦不绕过任何付费、登录或访问验证限制。
+
+漫画作品及翻译的版权均归原作者、出版方及相应汉化团队所有。**通过本项目检索、下载或缓存的漫画内容仅供个人学习与交流参考，请在下载后 24 小时内自行删除**，切勿用于任何商业用途或公开传播。若您喜欢相关作品，请通过正版渠道购买并支持创作者。因不当使用本项目所引发的一切法律责任由使用者自行承担，与本项目开发者无关。
